@@ -1,0 +1,97 @@
+body {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.main-display {
+	background-color: #222222;
+	margin: 1rem;
+	height: 90vh;
+}
+
+.segment {
+	max-height: 8%;
+	border-bottom: 1px solid #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+	padding: .3rem;
+	font-size: 150%;
+}
+
+.dest-col {
+	text-align: left;
+	float: left;
+	width: 33%;
+	height: 100%;
+	vertical-align: bottom;
+	font-size: 120%;
+}
+
+.time-col {
+	text-align: left;
+	display: inline-block;
+	height: 100%;
+	vertical-align: bottom;
+}
+
+.station-col {
+	text-align: right;
+	float:right;
+	width: 33%;
+	height: 100%;
+	vertical-align: bottom;
+	font-size: 120%;
+}
+
+.alert-badge {
+	margin-left: .5rem;
+	margin-right: .5rem;
+	padding: .5rem;
+}
+
+.alert-image {
+	max-width:100%;
+	max-height:100%;
+}
+
+.nearest-time {
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.purple-line {
+	background-color: #522398;
+	color: #FFFFFF;
+}
+
+.red-line {
+	background-color: #c60c30;
+	color: #FFFFFF;
+}
+
+.blue-line {
+	background-color: #001ade;
+	color: #FFFFFF;
+}
+
+.orange-line {
+	background-color: #f9461c;
+	color: #FFFFFF;
+}
+
+.pink-line {
+	background-color: #e27ea6;
+	color: #FFFFFF;
+}
+
+.green-line {
+	background-color: #009b3a;
+	color: #FFFFFF;
+}
+
+.brown-line {
+	background-color: #62361b;
+	color: #FFFFFF;
+}
+
+
