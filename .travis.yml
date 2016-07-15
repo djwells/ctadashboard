@@ -2,6 +2,6 @@ language: go
 
 go: 1.6
 
-init:
-    - go get github.com/kardianos/govendor
-    - govendor sync
+script:
+    - go test -v ./...
+    - go install cmd/ctadashboard/main.go
