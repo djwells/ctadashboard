@@ -1,5 +1,10 @@
 {
 	"comment": "",
+	"heroku": {
+		"heroku.install": [
+			"./cmd/ctadashboard"
+		]
+	}
 	"ignore": "test",
 	"package": [
 		{
